@@ -18,10 +18,10 @@ Math.prototype.doOperations =function(){
 
 Math.prototype.getSum = function(numbers, ini, fin)
 {
-    if (ini == undefined)
+    if (ini == null)
         ini = 0;
 
-    if (fin == undefined)
+    if (fin == null)
         fin = numbers.length - 1;
 
     if (ini == fin)
@@ -32,10 +32,10 @@ Math.prototype.getSum = function(numbers, ini, fin)
 
 Math.prototype.getAvg = function(numbers, ini, fin)
 {
-    if (ini == undefined)
+    if (ini == null)
         ini = 0;
 
-    if (fin == undefined)
+    if (fin == null)
         fin = numbers.length - 1;
 
     if (ini == fin)
@@ -47,10 +47,10 @@ Math.prototype.getAvg = function(numbers, ini, fin)
 
 Math.prototype.getMax = function(numbers, pos, max){
 
-    if (pos == undefined)
+    if (pos == null)
         pos = numbers.length - 1;
 
-    if (max == undefined)
+    if (max == null)
         max = numbers[pos];
 
     if (pos == 0)
@@ -64,10 +64,10 @@ Math.prototype.getMax = function(numbers, pos, max){
 
 Math.prototype.getMin = function(numbers, pos, min){
 
-    if (pos == undefined)
+    if (pos == null)
         pos = numbers.length - 1;
 
-    if (min == undefined)
+    if (min == null)
         min = numbers[pos];
 
     if (pos == 0)
