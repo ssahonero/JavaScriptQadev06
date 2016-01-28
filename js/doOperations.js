@@ -1,7 +1,6 @@
 /**
  * Created by SamuelSahonero on 1/21/2016.
  */
-
 /*
     This class have a set arithmetics methods based on
     recursive methods.

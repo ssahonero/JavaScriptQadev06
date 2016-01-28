@@ -40,7 +40,7 @@ var dateChange = function(number)
 };
 
 /*
-    A simple example that show us the use of
+    A simple example that show how to the use
     the dateChange and dayVhange methods.
  */
 console.log('Today is : ' + dayChange(date.getDay()));
