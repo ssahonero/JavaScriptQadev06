@@ -15,7 +15,7 @@ function Math(){
     This method execute all the arithmetic functions
     defined in the class
  */
-Math.prototype.doOperations =function(){
+Math.prototype.doOperations = function(){
     var numbers = arguments;
     console.log('The Total is ',this.getSum(numbers));
     console.log('The Maximum is ',this.getMax(numbers));
