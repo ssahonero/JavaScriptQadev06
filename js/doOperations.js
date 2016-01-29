@@ -105,7 +105,6 @@ Math.prototype.getMin = function(numbers, pos, min){
 /*
     A simple example about how to use this class
  */
-
 var math = new Math();
 
 math.doOperations(1,2,3,6,8);
