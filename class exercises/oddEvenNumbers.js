@@ -12,11 +12,13 @@ var evenNumbers = function(firstNumber, secondNumber, quantity){
 
     for(i = firstNumber; i <= secondNumber; i++)
     {
-        if((i%2) == 0)
+        if((i%2) !== 0)
         {
-            console.log(i);
-            aux++;
+            continue;
         }
+
+        console.log(i);
+        aux++;
 
         if(aux == quantity)
         {
@@ -35,11 +37,13 @@ var oddNumbers = function(firstNumber, secondNumber, quantity){
 
     for(i = firstNumber; i <= secondNumber; i++)
     {
-        if((i%2) != 0)
+        if((i%2) === 0)
         {
-            console.log(i);
-            aux++;
+           continue;
         }
+
+        console.log(i);
+        aux++;
 
         if(aux == quantity)
         {
@@ -57,7 +61,7 @@ var oddEvenNumbers = function(firstNumber, secondNumber, quantity){
     console.log('The first ' + quantity + ' Even numbers between '+ firstNumber +' and ' + secondNumber + ' are:');
     evenNumbers(firstNumber,secondNumber,quantity);
     console.log('The first ' + quantity + ' Odd numbers between '+ firstNumber +' and ' + secondNumber + ' are:');
-    oddNumbers(firstNumber,secondNumber,quantity)
+    oddNumbers(firstNumber,secondNumber,quantity);
 };
 
 oddEvenNumbers(1,20,10);
