@@ -22,6 +22,9 @@ var sayHello = function(cb, name) {
     }
 };
 
+/*
+ * This is a basic example
+ */
 sayHello(function(name2){
     console.log('Hello '+ name2);
     console.log('How are you? '+ name2 + '?');
@@ -51,7 +54,9 @@ sayHello(function(name3){
     console.log('Sum is ', res);
 })();
 
-
+/*
+ * This is a basic example
+ */
 (function(a, b){
     var res = a + b;
     console.log('Sum is ', res);
