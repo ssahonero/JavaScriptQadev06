@@ -45,7 +45,7 @@ sayHello(function(name3){
 
 
 /*
- * Auto-executable functions
+ * Auto-executable functions, it only executes
  */
 (function(){
     var a = 2;
@@ -55,7 +55,7 @@ sayHello(function(name3){
 })();
 
 /*
- * This is a basic example
+ * This is a basic example that receives
  */
 (function(a, b){
     var res = a + b;
