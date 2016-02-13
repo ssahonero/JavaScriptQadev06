@@ -44,6 +44,7 @@ Math.prototype.getSum = function(numbers, ini, fin)
 /*
     This method returns the average of the total
     number addition of the input arguments
+    given by a user
  */
 Math.prototype.getAvg = function(numbers, ini, fin)
 {
