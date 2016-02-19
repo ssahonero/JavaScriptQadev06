@@ -2,7 +2,6 @@
  * Created by SamuelSahonero on 2/17/2016.
  */
 
-
 var createTable = function () {
 
     var table = document.getElementById("myTable");
@@ -15,6 +14,4 @@ var createTable = function () {
 
 // Add some text to the new cells:
     cell1.innerHTML = "NEW CELL1";
-
-
 };
